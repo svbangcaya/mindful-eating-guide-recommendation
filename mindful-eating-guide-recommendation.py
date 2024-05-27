@@ -95,6 +95,10 @@ mindful_eating_tips = {
     ]
 }
 
+# Initialize session state for saved tips
+if "saved_tips" not in st.session_state:
+    st.session_state.saved_tips = []
+
 # Function to recommend a mindful eating tip based on focus area and tip selection
 def recommend_tip(area, selected_tip):
     if area in mindful_eating_tips:
@@ -108,20 +112,27 @@ def recommend_random_tip():
     all_tips = [tip for tips in mindful_eating_tips.values() for tip in tips]
     return random.choice(all_tips)
 
+# Function to save a tip
+def save_tip(tip):
+    if tip not in st.session_state.saved_tips:
+        st.session_state.saved_tips.append(tip)
+
 # Main function to run the Streamlit app
 def main():
-    st.title("Mindful Eating Guide")
+    st.title("Mindful Eating Guide Recommendation")
     st.subheader("Welcome to the Mindful Eating Guide! Get personalized tips for developing a healthier relationship with food.")
 
     st.markdown("""
-    Welcome to the Mindful Eating Guide! This application is designed to offer you personalized tips for developing a healthier relationship with food. Created by Samantha V. Bangcaya, a student from BSCS 3B AI, this guide is inspired by my own journey through various eating habits and challenges.
+    Created by Samantha V. Bangcaya, a student - BSCS 3B AI.
+    This application is designed to offer you personalized tips for developing a healthier relationship with food. This guide is inspired by my own journey through various eating habits and challenges.
 
     Having experienced emotional eating, binge eating, and the need for better portion control, I was motivated to develop this tool to help others. The Mindful Eating Guide provides practical, easy-to-follow tips for managing portion sizes, addressing emotional triggers, and simply enjoying your meals more mindfully.
     """)
+    
     # Ask user for their area of focus
-    area = st.selectbox("Select your area of focus:", ["Portion Control", "Emotional Eating", "Binge Eating", "General Tips"])
+    area = st.text_input("Type your area of focus (choose from Portion Control, Emotional Eating, Binge Eating, General Tips):")
 
-    if area:
+    if area in mindful_eating_tips:
         tips = [tip["tip"] for tip in mindful_eating_tips[area]]
         selected_tip = st.selectbox("Select a tip:", tips)
 
@@ -129,13 +140,22 @@ def main():
             recommendation = recommend_tip(area, selected_tip)
             if isinstance(recommendation, dict):
                 st.success(f"\n\nDescription: {recommendation['description']}\n\nFact: {recommendation['fact']}")
+                if st.button("Save Tip"):
+                    save_tip(recommendation)
+                    st.info("Tip saved!")
             else:
                 st.error(recommendation)
     
     # Add a button to get a random tip
     if st.button("Get Random Tip"):
         random_recommendation = recommend_random_tip()
-        st.info(f"Random Tip: {random_recommendation['tip']}\n\nDescription: {random_recommendation['description']}")
+        st.info(f"Random Tip: {random_recommendation['tip']}\n\nDescription: {random_recommendation['description']}\n\nFact: {random_recommendation['fact']}")
+
+    # Display saved tips
+    if st.session_state.saved_tips:
+        st.subheader("Saved Tips")
+        for saved_tip in st.session_state.saved_tips:
+            st.write(f"Tip: {saved_tip['tip']}\n\nDescription: {saved_tip['description']}\n\nFact: {saved_tip['fact']}")
 
 if __name__ == "__main__":
     main()
