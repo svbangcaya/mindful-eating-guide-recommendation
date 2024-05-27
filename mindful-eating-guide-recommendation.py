@@ -85,48 +85,100 @@ healthy_recipes = {
         {
             "title": "Gising-Gising",
             "ingredients": ["green beans", "coconut milk", "chili peppers", "onion", "garlic", "ginger"],
-            "instructions": "Sauté garlic, onion, and ginger. Add green beans and chili peppers. Pour in coconut milk and simmer until the vegetables are tender."
+            "instructions": "Sauté garlic, onion, and ginger. Add green beans and chili peppers. Pour in coconut milk and simmer until the vegetables are tender.",
+            "reason": "This dish is rich in fiber and healthy fats from coconut milk, which helps keep you full longer and aids in portion control."
         },
         {
             "title": "Laing",
             "ingredients": ["taro leaves", "coconut milk", "shrimp paste", "chili peppers", "garlic", "onion"],
-            "instructions": "Sauté garlic and onion. Add shrimp paste and chili peppers. Pour in coconut milk and add taro leaves. Simmer until the leaves are tender."
+            "instructions": "Sauté garlic and onion. Add shrimp paste and chili peppers. Pour in coconut milk and add taro leaves. Simmer until the leaves are tender.",
+            "reason": "Laing is a flavorful and nutrient-dense dish that provides fiber and essential vitamins, helping you feel satisfied with smaller portions."
         }
     ],
     "Emotional Eating": [
         {
             "title": "Monggo Guisado",
             "ingredients": ["mung beans", "tomato", "garlic", "onion", "spinach", "vegetable broth"],
-            "instructions": "Sauté garlic, onion, and tomato. Add mung beans and vegetable broth. Simmer until beans are tender. Add spinach and cook until wilted."
+            "instructions": "Sauté garlic, onion, and tomato. Add mung beans and vegetable broth. Simmer until beans are tender. Add spinach and cook until wilted.",
+            "reason": "This hearty and comforting dish is rich in protein and fiber, which can help stabilize blood sugar levels and manage emotional eating."
         },
         {
             "title": "Pinakbet",
             "ingredients": ["eggplant", "bitter melon", "squash", "long beans", "tomato", "onion", "garlic"],
-            "instructions": "Sauté garlic, onion, and tomato. Add vegetables and a small amount of water. Cover and simmer until vegetables are tender."
+            "instructions": "Sauté garlic, onion, and tomato. Add vegetables and a small amount of water. Cover and simmer until vegetables are tender.",
+            "reason": "Pinakbet is a vegetable-packed dish that is low in calories and high in nutrients, making it a great choice to combat emotional eating."
         }
     ],
     "Binge Eating": [
         {
             "title": "Chicken Tinola",
-            "ingredients": ["chicken", "green papaya", "malunggay leaves", "ginger", "garlic", "fish sauce"],
-            "instructions": "Sauté garlic, ginger, and onion. Add chicken and cook until lightly browned. Pour in water and fish sauce. Add green papaya and simmer until tender. Add malunggay leaves and cook for a few more minutes."
+            "ingredients": ["chicken", "green papaya", "malunggay leaves", "ginger", "garlic", "onion"],
+            "instructions": "Sauté garlic, onion, and ginger. Add chicken and cook until lightly browned. Add water and green papaya. Simmer until chicken is cooked and papaya is tender. Add malunggay leaves before serving.",
+            "reason": "Chicken Tinola is a nourishing soup that is light yet filling, helping to prevent binge eating by providing a balanced meal with lean protein and vegetables."
         },
         {
             "title": "Pork Sinigang",
             "ingredients": ["pork", "tamarind paste", "radish", "eggplant", "kangkong", "tomato", "onion"],
-            "instructions": "Boil pork with tamarind paste, tomato, and onion until tender. Add radish, eggplant, and other vegetables. Cook until vegetables are tender. Add kangkong leaves just before serving."
+            "instructions": "Boil pork with tamarind paste, tomato, and onion until tender. Add radish, eggplant, and other vegetables. Cook until vegetables are tender. Add kangkong leaves just before serving.",
+            "reason": "This tangy and savory soup is rich in protein and fiber, which can help you feel full and satisfied, reducing the likelihood of binge eating."
         }
     ],
     "General Tips": [
         {
             "title": "Adobo sa Gata",
             "ingredients": ["chicken", "coconut milk", "vinegar", "soy sauce", "garlic", "bay leaves"],
-            "instructions": "Sauté garlic. Add chicken and cook until lightly browned. Pour in vinegar, soy sauce, and coconut milk. Add bay leaves and simmer until chicken is tender."
+            "instructions": "Sauté garlic. Add chicken and cook until lightly browned. Pour in vinegar, soy sauce, and coconut milk. Add bay leaves and simmer until chicken is tender.",
+            "reason": "Adobo sa Gata is a flavorful dish that combines lean protein with the healthy fats of coconut milk, providing a satisfying and nutritious meal."
         },
         {
             "title": "Bicol Express",
             "ingredients": ["pork", "coconut milk", "chili peppers", "shrimp paste", "garlic", "onion"],
-            "instructions": "Sauté garlic and onion. Add pork and cook until lightly browned. Pour in coconut milk and shrimp paste. Add chili peppers and simmer until pork is tender."
+            "instructions": "Sauté garlic and onion. Add pork and cook until lightly browned. Pour in coconut milk and shrimp paste. Add chili peppers and simmer until pork is tender.",
+            "reason": "Bicol Express is a spicy and savory dish that offers a balance of protein, healthy fats, and fiber, making it a delicious and nutritious option."
+        }
+    ]
+}
+
+# Dictionary of physical activities categorized by area of focus
+physical_activities = {
+    "Portion Control": [
+        {
+            "activity": "Walking",
+            "description": "A simple and effective way to control your weight and improve your overall health. Walking helps you burn calories and keeps your metabolism active."
+        },
+        {
+            "activity": "Yoga",
+            "description": "Helps you become more mindful of your body's hunger and fullness cues. It also reduces stress, which can help prevent overeating."
+        }
+    ],
+    "Emotional Eating": [
+        {
+            "activity": "Meditation",
+            "description": "Helps you become more aware of your emotional triggers and develop healthier coping mechanisms. Meditation can reduce stress and improve your relationship with food."
+        },
+        {
+            "activity": "Dance",
+            "description": "A fun and energetic way to lift your mood and distract yourself from emotional eating. Dancing also helps burn calories and improves overall fitness."
+        }
+    ],
+    "Binge Eating": [
+        {
+            "activity": "Swimming",
+            "description": "Provides a full-body workout that helps you stay active and burn calories. Swimming is also relaxing and can reduce the urge to binge eat."
+        },
+        {
+            "activity": "Strength Training",
+            "description": "Helps build muscle, which can increase your metabolism and reduce the urge to binge eat. Strength training also improves overall body composition."
+        }
+    ],
+    "General Tips": [
+        {
+            "activity": "Cycling",
+            "description": "A great way to improve cardiovascular health and burn calories. Cycling can be done indoors or outdoors, making it a versatile exercise option."
+        },
+        {
+            "activity": "Pilates",
+            "description": "Focuses on core strength, flexibility, and mindfulness. Pilates helps improve body awareness and can support mindful eating practices."
         }
     ]
 }
@@ -159,6 +211,12 @@ def recommend_recipe(preference):
         return random.choice(healthy_recipes[preference])
     return "Sorry, we don't have recipes for that preference."
 
+# Function to recommend a physical activity based on focus area
+def recommend_activity(preference):
+    if preference in physical_activities:
+        return random.choice(physical_activities[preference])
+    return "Sorry, we don't have activities for that preference."
+
 # Main function to run the Streamlit app
 def main():
     st.title("Mindful Eating Guide Recommendation")
@@ -185,7 +243,10 @@ def main():
                     st.success(f"Description: {recommendation['description']}")
                     recipe = recommend_recipe(area)
                     if isinstance(recipe, dict):
-                        st.info(f"Healthy Recipe: {recipe['title']}\n\nIngredients: {', '.join(recipe['ingredients'])}\n\nInstructions: {recipe['instructions']}")
+                        st.info(f"Healthy Food Recommendation to help for that certain tips: {recipe['title']}\n\nIngredients: {', '.join(recipe['ingredients'])}\n\nInstructions: {recipe['instructions']}\n\nReason: {recipe['reason']}")
+                    activity = recommend_activity(area)
+                    if isinstance(activity, dict):
+                        st.info(f"Recommended Physical Activity: {activity['activity']}\n\nDescription: {activity['description']}")
                 else:
                     st.error(recommendation)
         else:
@@ -197,7 +258,10 @@ def main():
         st.info(f"Random Tip: {random_recommendation['tip']}\n\nDescription: {random_recommendation['description']}")
         recipe = recommend_recipe("General Tips")
         if isinstance(recipe, dict):
-            st.info(f"Healthy Recipe: {recipe['title']}\n\nIngredients: {', '.join(recipe['ingredients'])}\n\nInstructions: {recipe['instructions']}")
+            st.info(f"Healthy Food Recommendation to help for that certain tips: {recipe['title']}\n\nIngredients: {', '.join(recipe
+        activity = recommend_activity("General Tips")
+        if isinstance(activity, dict):
+            st.info(f"Recommended Physical Activity: {activity['activity']}\n\nDescription: {activity['description']}")
 
 if __name__ == "__main__":
     main()
