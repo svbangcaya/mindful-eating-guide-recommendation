@@ -1,8 +1,7 @@
 import streamlit as st
 import random
-import openai
+import google.generativeai as geneai
 from dotenv import load_dotenv
-import os
 
 # Dictionary of mindful eating tips categorized by area of focus
 mindful_eating_tips = {
