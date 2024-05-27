@@ -132,19 +132,22 @@ def main():
     # Ask user for their area of focus
     area = st.text_input("Type your area of focus (choose from Portion Control, Emotional Eating, Binge Eating, General Tips):")
 
-    if area in mindful_eating_tips:
-        tips = [tip["tip"] for tip in mindful_eating_tips[area]]
-        selected_tip = st.selectbox("Select a tip:", tips)
+    if area:
+        if area in mindful_eating_tips:
+            tips = [tip["tip"] for tip in mindful_eating_tips[area]]
+            selected_tip = st.selectbox("Select a tip:", tips)
 
-        if st.button("Get Tip"):
-            recommendation = recommend_tip(area, selected_tip)
-            if isinstance(recommendation, dict):
-                st.success(f"\n\nDescription: {recommendation['description']}\n\nFact: {recommendation['fact']}")
-                if st.button("Save Tip"):
-                    save_tip(recommendation)
-                    st.info("Tip saved!")
-            else:
-                st.error(recommendation)
+            if st.button("Get Tip"):
+                recommendation = recommend_tip(area, selected_tip)
+                if isinstance(recommendation, dict):
+                    st.success(f"Description: {recommendation['description']}\n\nFact: {recommendation['fact']}")
+                    if st.button("Save Tip"):
+                        save_tip(recommendation)
+                        st.info("Tip saved!")
+                else:
+                    st.error(recommendation)
+        else:
+            st.error("The entered area of focus is not part of our categories.")
     
     # Add a button to get a random tip
     if st.button("Get Random Tip"):
