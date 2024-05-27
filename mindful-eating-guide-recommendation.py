@@ -31,13 +31,13 @@ mindful_eating_tips = {
     ]
 }
 
-# Function to recommend a mindful eating tip based on focus area
-def recommend_tip(area):
+# Function to get tips for a specific focus area
+def get_tips(area):
     area_lower = area.lower()
     if area_lower in mindful_eating_tips:
-        return random.choice(mindful_eating_tips[area_lower])
+        return mindful_eating_tips[area_lower]
     else:
-        return "Sorry, we don't have tips for that focus area."
+        return []
 
 # Main function to run the Streamlit app
 def main():
@@ -47,13 +47,17 @@ def main():
     # Ask user for their area of focus
     area = st.selectbox("Select your area of focus:", ["Portion Control", "Emotional Eating", "Binge Eating", "General Tips"])
 
-    # Recommend a tip based on the user's preference
+    # Show tips for the selected focus area
     if st.button("Get Tip"):
-        recommendation = recommend_tip(area)
-        if isinstance(recommendation, dict):
-            st.success(f"Tip: {recommendation['tip']} - {recommendation['description']}")
+        tips = get_tips(area)
+        if tips:
+            selected_tip = st.selectbox("Select a tip:", [tip["tip"] for tip in tips])
+            for tip in tips:
+                if tip["tip"] == selected_tip:
+                    st.success(f"Tip: {tip['tip']} - {tip['description']}")
+                    break
         else:
-            st.error(recommendation)
+            st.error("Sorry, we don't have tips for that focus area.")
 
 if __name__ == "__main__":
     main()
