@@ -171,6 +171,7 @@ def main():
                 recommendation = recommend_tip(area, selected_tip)
                 if isinstance(recommendation, dict):
                     st.success(f"Description: {recommendation['description']}")
+                    st.info(f"Interesting Fact: {recommendation['fact']}")
                     st.info(f"Recommended Physical Activity: {recommendation['activity']}\n\nDescription: {recommendation['activity_description']}")
                 else:
                     st.error(recommendation)
@@ -181,6 +182,7 @@ def main():
     if st.button("Get Random Tip"):
         random_recommendation = recommend_random_tip()
         st.info(f"Random Tip: {random_recommendation['tip']}\n\nDescription: {random_recommendation['description']}")
+        st.info(f"Interesting Fact: {random_recommendation['fact']}")
         st.info(f"Recommended Physical Activity: {random_recommendation['activity']}\n\nDescription: {random_recommendation['activity_description']}")
 
 if __name__ == "__main__":
