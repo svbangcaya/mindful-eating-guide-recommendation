@@ -9,159 +9,114 @@ mindful_eating_tips = {
     "Portion Control": [
         {
             "tip": "Use smaller plates",
-            "description": "Using smaller plates can help you control your portions better. When you use a smaller plate, your servings look larger, which can make you feel more satisfied with less food. This simple change can help you reduce your calorie intake without feeling deprived.",
+            "description": "Using smaller plates can help you control your portions better. When you use a smaller plate, your servings look larger, which can make you feel more satisfied with less food. This simple change can help you reduce your calorie intake without feeling deprived. Additionally, by visually tricking your brain into thinking you're eating more, smaller plates can help you enjoy your meals more and reduce the likelihood of overeating.",
             "fact": "Did you know that studies have shown people tend to eat less when they use smaller plates, leading to a reduction in calorie intake by up to 30%? (Source: Journal of Consumer Research)",
-            "food": "Tinolang Manok",
-            "food_reason": "A healthy chicken soup with vegetables that is filling and low in calories.",
             "activity": "Walking",
-            "activity_description": "Walking is a simple yet effective way to burn calories and stay active.",
-            "activity_fact": "Did you know that walking for 30 minutes a day can help improve cardiovascular health and aid in weight management? (Source: American Heart Association)"
+            "activity_description": "Walking is a simple yet effective way to burn calories and stay active. It's a low-impact exercise that can be done anywhere and doesn't require any special equipment. Walking for at least 30 minutes a day can help improve cardiovascular health, boost your mood, and aid in weight management."
         },
         {
             "tip": "Measure your food",
-            "description": "Measuring your food portions with cups and spoons can help you be more aware of how much you are eating. It ensures that you are not consuming more than you need, which can help you maintain a healthy weight and avoid overeating.",
+            "description": "Measuring your food portions with cups and spoons can help you be more aware of how much you are eating. It ensures that you are not consuming more than you need, which can help you maintain a healthy weight and avoid overeating. By taking the guesswork out of portion sizes, you can better manage your intake and make informed decisions about your meals.",
             "fact": "Did you know that consistently measuring your food can help you understand portion sizes better, making it easier to make healthier choices without overindulging? (Source: American Journal of Clinical Nutrition)",
-            "food": "Ensaladang Talong",
-            "food_reason": "A nutritious eggplant salad that helps you keep portions in check.",
             "activity": "Cycling",
-            "activity_description": "Cycling is a fun way to get exercise and burn calories.",
-            "activity_fact": "Did you know that cycling for an hour can burn up to 600 calories? (Source: Harvard Health)"
+            "activity_description": "Cycling is a fun way to get exercise and burn calories. It's a great cardiovascular workout that can help improve your overall fitness and endurance. Regular cycling can enhance heart health, increase muscle strength, and improve joint mobility."
         },
         {
             "tip": "Serve from the kitchen",
-            "description": "Serving your food directly from the kitchen instead of placing serving dishes on the dining table can prevent you from taking second helpings. This strategy helps you stick to your initial portion size, reducing the temptation to overeat.",
+            "description": "Serving your food directly from the kitchen instead of placing serving dishes on the dining table can prevent you from taking second helpings. This strategy helps you stick to your initial portion size, reducing the temptation to overeat. By controlling the serving process, you can better manage your portions and avoid mindless eating.",
             "fact": "Did you know that research suggests people eat about 20% less when food is served from the kitchen instead of having serving dishes on the table? (Source: Cornell University)",
-            "food": "Sinigang na Isda",
-            "food_reason": "A flavorful fish soup that is nutritious and helps control portions.",
             "activity": "Jogging",
-            "activity_description": "Jogging is a great cardiovascular exercise that helps burn calories and improve fitness.",
-            "activity_fact": "Did you know that jogging for 30 minutes can burn around 300 calories? (Source: Mayo Clinic)"
+            "activity_description": "Jogging is a great cardiovascular exercise that helps burn calories and improve fitness. It's a high-impact activity that can strengthen your muscles and boost your endurance. Regular jogging can help improve cardiovascular health, increase lung capacity, and strengthen bones."
         },
         {
             "tip": "Eat slowly",
-            "description": "Taking your time to chew thoroughly and savor your food can help you recognize when you are full. Eating slowly allows your brain to catch up with your stomach, preventing overeating and promoting better digestion.",
+            "description": "Taking your time to chew thoroughly and savor your food can help you recognize when you are full. Eating slowly allows your brain to catch up with your stomach, preventing overeating and promoting better digestion. By giving yourself time to enjoy each bite, you can enhance your dining experience and better appreciate the flavors and textures of your meal.",
             "fact": "Did you know that eating slowly can reduce calorie intake and aid digestion? It takes about 20 minutes for your brain to register that you are full. (Source: Harvard Health)",
-            "food": "Pinakbet",
-            "food_reason": "A vegetable dish that is nutritious and helps in maintaining a balanced diet.",
             "activity": "Yoga",
-            "activity_description": "Yoga helps improve flexibility, strength, and mindfulness.",
-            "activity_fact": "Did you know that practicing yoga can help reduce stress and improve overall well-being? (Source: National Institutes of Health)"
+            "activity_description": "Yoga helps improve flexibility, strength, and mindfulness. It's a holistic practice that combines physical postures, breathing exercises, and meditation to promote overall well-being. Regular yoga practice can reduce stress, improve mental clarity, and enhance physical health."
         }
     ],
     "Emotional Eating": [
         {
             "tip": "Identify triggers",
-            "description": "Keeping a food diary to note when and why you eat can help you recognize patterns and emotional triggers. Understanding these triggers can help you develop healthier coping mechanisms for stress, boredom, or other emotions.",
+            "description": "Keeping a food diary to note when and why you eat can help you recognize patterns and emotional triggers. Understanding these triggers can help you develop healthier coping mechanisms for stress, boredom, or other emotions. By becoming more aware of your eating habits, you can better manage your emotional responses and make more mindful choices about when and what to eat.",
             "fact": "Did you know that identifying emotional eating triggers can help reduce stress-related eating by up to 50%, leading to healthier eating habits? (Source: Mayo Clinic)",
-            "food": "Ginisang Ampalaya",
-            "food_reason": "Bitter melon stir-fry that helps in reducing stress and is nutritious.",
             "activity": "Journaling",
-            "activity_description": "Writing about your feelings can be a healthy way to process emotions and reduce the urge to eat for comfort.",
-            "activity_fact": "Did you know that journaling can help identify emotional triggers and develop healthier coping strategies? (Source: Journal of Clinical Psychology)"
+            "activity_description": "Writing about your feelings can be a healthy way to process emotions and reduce the urge to eat for comfort. Journaling provides an outlet for expressing your thoughts and can help you understand and manage your emotions better. Regular journaling can lead to greater self-awareness, reduced stress, and improved emotional regulation."
         },
         {
             "tip": "Find alternatives",
-            "description": "Engaging in activities like walking, reading, or talking to a friend can be great alternatives to eating when you're feeling stressed or emotional. Finding other ways to cope with your feelings can help you break the cycle of emotional eating.",
+            "description": "Engaging in activities like walking, reading, or talking to a friend can be great alternatives to eating when you're feeling stressed or emotional. Finding other ways to cope with your feelings can help you break the cycle of emotional eating. By distracting yourself with enjoyable activities, you can reduce the urge to eat and develop healthier habits.",
             "fact": "Did you know that finding non-food-related activities can reduce the urge to eat by providing a distraction and helping to manage emotions more effectively? (Source: American Psychological Association)",
-            "food": "Lumpiang Sariwa",
-            "food_reason": "Fresh vegetable rolls that are both healthy and comforting.",
             "activity": "Dancing",
-            "activity_description": "Dancing is a fun way to exercise and lift your spirits.",
-            "activity_fact": "Did you know that dancing can help reduce stress and improve mood? (Source: National Institute of Dance Medicine and Science)"
+            "activity_description": "Dancing is a fun way to exercise and lift your spirits. It's a physical activity that can improve your mood and help you stay active. Dancing can also improve cardiovascular health, increase muscle tone, and enhance coordination and balance."
         },
         {
             "tip": "Practice mindfulness",
-            "description": "Before eating, take a few deep breaths and assess your hunger level. This practice helps ensure that you are eating because you are genuinely hungry and not just eating out of habit or emotion.",
+            "description": "Before eating, take a few deep breaths and assess your hunger level. This practice helps ensure that you are eating because you are genuinely hungry and not just eating out of habit or emotion. By becoming more mindful of your hunger cues, you can make better decisions about when and how much to eat.",
             "fact": "Did you know that practicing mindfulness before eating can decrease calorie intake and improve overall emotional well-being? (Source: Mindful Eating Research)",
-            "food": "Ginataang Gulay",
-            "food_reason": "A vegetable dish cooked in coconut milk that promotes mindful eating.",
             "activity": "Meditation",
-            "activity_description": "Meditation helps you become more aware of your thoughts and emotions, reducing the likelihood of emotional eating.",
-            "activity_fact": "Did you know that meditation can reduce stress and improve emotional health? (Source: National Center for Complementary and Integrative Health)"
+            "activity_description": "Meditation helps you become more aware of your thoughts and emotions, reducing the likelihood of emotional eating. It's a practice that can enhance your overall mental health and well-being. Regular meditation can reduce stress, improve emotional stability, and increase self-awareness."
         },
         {
             "tip": "Seek support",
-            "description": "Talking to a counselor or joining a support group can provide you with the support you need to manage emotional eating. Sharing your experiences with others can help you feel less alone and give you new strategies to cope with your emotions.",
+            "description": "Talking to a counselor or joining a support group can provide you with the support you need to manage emotional eating. Sharing your experiences with others can help you feel less alone and give you new strategies to cope with your emotions. By connecting with others who understand your struggles, you can find encouragement and accountability in your journey toward healthier eating habits.",
             "fact": "Did you know that support groups can offer a sense of community and accountability, which can be crucial in overcoming emotional eating habits? (Source: National Eating Disorders Association)",
-            "food": "Arroz Caldo",
-            "food_reason": "A comforting rice porridge that is both nutritious and soothing.",
             "activity": "Support Groups",
-            "activity_description": "Joining a support group can provide you with the encouragement and advice needed to overcome emotional eating.",
-            "activity_fact": "Did you know that support groups can significantly improve your chances of overcoming emotional eating? (Source: American Psychological Association)"
+            "activity_description": "Joining a support group can provide you with the encouragement and advice needed to overcome emotional eating. It's a space where you can share your experiences and learn from others. Support groups can also offer valuable resources and coping strategies to help you manage emotional eating."
         }
     ],
     "Binge Eating": [
         {
             "tip": "Plan your meals",
-            "description": "Having regular meals and snacks can help prevent extreme hunger, which can lead to binging. Planning your meals ensures that you are eating balanced, nutritious foods throughout the day, keeping your hunger and cravings in check.",
+            "description": "Having regular meals and snacks can help prevent extreme hunger, which can lead to binging. Planning your meals ensures that you are eating balanced, nutritious foods throughout the day, keeping your hunger and cravings in check. By maintaining a consistent eating schedule, you can better manage your appetite and avoid the triggers that lead to binge eating.",
             "fact": "Did you know that meal planning can reduce the frequency of binge eating episodes by providing structure and ensuring balanced nutrition? (Source: International Journal of Eating Disorders)",
-            "food": "Adobong Sitaw",
-            "food_reason": "A healthy string bean dish that is easy to prepare and keeps you full longer.",
             "activity": "Meal Prepping",
-            "activity_description": "Preparing your meals in advance helps you control portions and avoid impulsive eating.",
-            "activity_fact": "Did you know that meal prepping can save time and help you stick to your dietary goals? (Source: Journal of Nutrition Education and Behavior)"
+            "activity_description": "Preparing your meals in advance helps you control portions and avoid impulsive eating. It's a practical way to ensure you have healthy options available throughout the week. Meal prepping can also save time, reduce food waste, and help you stick to your dietary goals."
         },
         {
             "tip": "Avoid distractions",
-            "description": "Eating without distractions like TV or phones allows you to focus on your meal and recognize when you are full. Being mindful during meals can help you enjoy your food more and prevent overeating.",
+            "description": "Eating without distractions like TV or phones allows you to focus on your meal and recognize when you are full. Being mindful during meals can help you enjoy your food more and prevent overeating. By eliminating distractions, you can pay better attention to your body's signals and stop eating when you're satisfied.",
             "fact": "Did you know that eating without distractions can improve digestion and reduce overeating by increasing awareness of satiety signals? (Source: American Journal of Clinical Nutrition)",
-            "food": "Laing",
-            "food_reason": "A flavorful dish made with taro leaves that can be easily portioned to avoid overeating.",
             "activity": "Strength Training",
-            "activity_description": "Strength training exercises can help you build muscle and burn calories.",
-            "activity_fact": "Did you know that strength training can increase metabolism and help with weight management? (Source: Mayo Clinic)"
+            "activity_description": "Strength training exercises can help you build muscle and burn calories. It's a form of physical activity that can boost your metabolism and support overall health. Regular strength training can also improve bone density, enhance joint function, and increase muscle mass."
         },
         {
             "tip": "Stay hydrated",
-            "description": "Drinking water throughout the day can help manage your hunger and prevent overeating. Sometimes, thirst can be mistaken for hunger, so staying hydrated can help you better understand your body's true needs.",
+            "description": "Drinking water throughout the day can help manage your hunger and prevent overeating. Sometimes, thirst can be mistaken for hunger, so staying hydrated can help you better understand your body's true needs. By keeping a water bottle with you, you can easily stay hydrated and avoid unnecessary snacking.",
             "fact": "Did you know that staying hydrated can reduce hunger pangs and aid in overall body function, making it easier to distinguish between hunger and thirst? (Source: National Institutes of Health)",
-            "food": "Tinolang Tahong",
-            "food_reason": "A mussel soup that is hydrating and provides essential nutrients.",
             "activity": "Swimming",
-            "activity_description": "Swimming is a full-body workout that helps maintain a healthy weight.",
-            "activity_fact": "Did you know that swimming can burn up to 500 calories per hour and improve cardiovascular health? (Source: Centers for Disease Control and Prevention)"
+            "activity_description": "Swimming is a full-body workout that helps maintain a healthy weight. It's a low-impact exercise that can improve cardiovascular health and build strength. Swimming can also enhance flexibility, increase muscle tone, and provide a great cardiovascular workout."
         }
     ],
     "General Tips": [
         {
             "tip": "Listen to your body",
-            "description": "Eat when you're hungry and stop when you're satisfied, not full. Paying attention to your body's hunger and fullness cues can help you avoid overeating and make healthier choices about when and how much to eat.",
+            "description": "Eat when you're hungry and stop when you're satisfied, not full. Paying attention to your body's hunger and fullness cues can help you avoid overeating and make healthier choices about when and how much to eat. By tuning in to your body's signals, you can develop a more intuitive approach to eating.",
             "fact": "Did you know that listening to your body's signals can improve eating habits and reduce the risk of overeating, leading to better overall health? (Source: Harvard Health)",
-            "food": "Pako Salad",
-            "food_reason": "A fern salad that is light and helps you listen to your hunger cues.",
             "activity": "Mindful Breathing",
-            "activity_description": "Practicing mindful breathing helps you stay in tune with your body's signals.",
-            "activity_fact": "Did you know that mindful breathing can reduce stress and improve overall well-being? (Source: National Institutes of Health)"
+            "activity_description": "Practicing mindful breathing helps you stay in tune with your body's signals. It's a simple practice that can reduce stress and improve your awareness of hunger and fullness. Regular mindful breathing can enhance relaxation, increase focus, and improve emotional regulation."
         },
         {
             "tip": "Choose whole foods",
-            "description": "Opt for whole, unprocessed foods that nourish your body. Whole foods like fruits, vegetables, whole grains, and lean proteins are packed with nutrients and can help you feel more satisfied than processed foods.",
+            "description": "Opt for whole, unprocessed foods that nourish your body. Whole foods like fruits, vegetables, whole grains, and lean proteins are packed with nutrients and can help you feel more satisfied than processed foods. By prioritizing whole foods, you can support your health and well-being.",
             "fact": "Did you know that choosing whole foods can provide essential nutrients and improve satiety, reducing the likelihood of overeating processed foods? (Source: Academy of Nutrition and Dietetics)",
-            "food": "Pinakbet",
-            "food_reason": "A nutritious mixed vegetable dish that is rich in vitamins and minerals.",
             "activity": "Hiking",
-            "activity_description": "Hiking is a great way to enjoy nature and get some exercise.",
-            "activity_fact": "Did you know that hiking can burn up to 400 calories per hour and improve cardiovascular health? (Source: American Hiking Society)"
+            "activity_description": "Hiking is a great way to enjoy nature and get some exercise. It's an activity that can improve your physical fitness and mental well-being. Regular hiking can enhance cardiovascular health, build muscle strength, and reduce stress levels."
         },
         {
             "tip": "Balance your plate",
-            "description": "Including a variety of food groups in your meals ensures balanced nutrition. A balanced plate with proteins, carbohydrates, fats, and vegetables can provide you with all the essential nutrients your body needs to function well.",
+            "description": "Including a variety of food groups in your meals ensures balanced nutrition. A balanced plate with proteins, carbohydrates, fats, and vegetables can provide you with all the essential nutrients your body needs to function well. By aiming for balance, you can support your body's needs and maintain overall health.",
             "fact": "Did you know that a balanced diet can enhance overall health and energy levels, supporting a well-functioning body and mind? (Source: World Health Organization)",
-            "food": "Kare-Kare",
-            "food_reason": "A balanced dish with meat, vegetables, and peanut sauce providing a mix of nutrients.",
             "activity": "Pilates",
-            "activity_description": "Pilates helps improve flexibility, strength, and balance.",
-            "activity_fact": "Did you know that Pilates can help improve core strength and overall fitness? (Source: Pilates Method Alliance)"
+            "activity_description": "Pilates helps improve flexibility, strength, and balance. It's a form of exercise that can enhance your physical fitness and promote a strong core. Regular Pilates practice can improve posture, increase muscle strength, and enhance overall physical fitness."
         },
         {
             "tip": "Enjoy your food",
-            "description": "Take time to savor each bite and enjoy the flavors and textures of your food. Eating mindfully can enhance your eating experience, making meals more enjoyable and helping you appreciate the food you are eating.",
+            "description": "Take time to savor each bite and enjoy the flavors and textures of your food. Eating mindfully can enhance your eating experience, making meals more enjoyable and helping you appreciate the food you are eating. By slowing down and focusing on your meal, you can improve your digestion and overall satisfaction.",
             "fact": "Did you know that mindful eating can improve digestion and satisfaction, making mealtime a more fulfilling and enjoyable experience? (Source: American Journal of Clinical Nutrition)",
-            "food": "Lechon Kawali",
-            "food_reason": "A tasty Filipino dish that can be enjoyed in moderation as part of a mindful eating practice.",
             "activity": "Gardening",
-            "activity_description": "Gardening is a relaxing activity that gets you moving and can be a great way to grow your own healthy foods.",
-            "activity_fact": "Did you know that gardening can burn up to 330 calories per hour and reduce stress? (Source: National Gardening Association)"
+            "activity_description": "Gardening is a relaxing activity that gets you moving and can be a great way to grow your own healthy foods. It's a hobby that can reduce stress and provide fresh, nutritious produce. Gardening can also improve mental health, increase physical activity, and offer a sense of accomplishment."
         }
     ]
 }
@@ -211,9 +166,8 @@ def main():
             if st.button("Get Tip"):
                 recommendation = recommend_tip(area, selected_tip)
                 if isinstance(recommendation, dict):
-                    st.success(f"Description: {recommendation['description']}")
-                    st.info(f"Healthy Food Recommendation: {recommendation['food']}\n\nReason: {recommendation['food_reason']}")
-                    st.info(f"Recommended Physical Activity: {recommendation['activity']}\n\nDescription: {recommendation['activity_description']}\n\nInteresting Fact: {recommendation['activity_fact']}")
+                    st.success(f"Description: {recommendation['description']}\n\nInteresting Fact: {recommendation['fact']}")
+                    st.info(f"Recommended Physical Activity: {recommendation['activity']}\n\nDescription: {recommendation['activity_description']}")
                 else:
                     st.error(recommendation)
         else:
@@ -223,8 +177,7 @@ def main():
     if st.button("Get Random Tip"):
         random_recommendation = recommend_random_tip()
         st.info(f"Random Tip: {random_recommendation['tip']}\n\nDescription: {random_recommendation['description']}\n\nInteresting Fact: {random_recommendation['fact']}")
-        st.info(f"Healthy Food Recommendation: {random_recommendation['food']}\n\nReason: {random_recommendation['food_reason']}")
-        st.info(f"Recommended Physical Activity: {random_recommendation['activity']}\n\nDescription: {random_recommendation['activity_description']}\n\nInteresting Fact: {random_recommendation['activity_fact']}")
+        st.info(f"Recommended Physical Activity: {random_recommendation['activity']}\n\nDescription: {random_recommendation['activity_description']}")
 
 if __name__ == "__main__":
     main()
