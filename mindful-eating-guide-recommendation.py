@@ -47,17 +47,16 @@ def main():
     # Ask user for their area of focus
     area = st.selectbox("Select your area of focus:", ["Portion Control", "Emotional Eating", "Binge Eating", "General Tips"])
 
-    if st.button("Get Tip"):
-        if area:
-            tips = [tip["tip"] for tip in mindful_eating_tips[area]]
-            selected_tip = st.selectbox("Select a tip:", tips)
+    if area:
+        tips = [tip["tip"] for tip in mindful_eating_tips[area]]
+        selected_tip = st.selectbox("Select a tip:", tips)
 
-            if st.button("Show Recommendation"):
-                recommendation = recommend_tip(area, selected_tip)
-                if isinstance(recommendation, dict):
-                    st.success(f"Tip: {recommendation['tip']} - {recommendation['description']}")
-                else:
-                    st.error(recommendation)
+        if st.button("Get Tip"):
+            recommendation = recommend_tip(area, selected_tip)
+            if isinstance(recommendation, dict):
+                st.success(f"Tip: {recommendation['tip']} - {recommendation['description']}")
+            else:
+                st.error(recommendation)
 
 if __name__ == "__main__":
     main()
