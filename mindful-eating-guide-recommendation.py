@@ -1,6 +1,6 @@
 import streamlit as st
 import random
-import google.generativeai as geneai
+import google.generativeai as genai
 from dotenv import load_dotenv
 
 # Dictionary of mindful eating tips categorized by area of focus
@@ -33,24 +33,14 @@ mindful_eating_tips = {
 
 # Function to recommend a mindful eating tip based on focus area
 def recommend_tip(area):
-    if area in mindful_eating_tips:
-        return random.choice(mindful_eating_tips[area])
+    if area.lower() in mindful_eating_tips:
+        return random.choice(mindful_eating_tips[area.lower()])
     else:
         return "Sorry, we don't have tips for that focus area."
 
-# Function to generate a detailed description using OpenAI GPT-3
-def generate_detailed_description(tip, description):
-    prompt = f"Provide a detailed explanation and practical advice for the mindful eating tip: '{tip}'. The tip description is: '{description}'."
-    response = openai.Completion.create(
-        engine="text-davinci-003",
-        prompt=prompt,
-        max_tokens=100
-    )
-    return response.choices[0].text.strip()
-
 # Main function to run the Streamlit app
 def main():
-    st.title("Mindful Eating Guide Recommendation")
+    st.title("Mindful Eating Guide")
     st.subheader("Welcome to the Mindful Eating Guide! Get personalized tips for developing a healthier relationship with food.")
 
     # Ask user for their area of focus
@@ -60,8 +50,7 @@ def main():
     if st.button("Get Tip"):
         recommendation = recommend_tip(area)
         if isinstance(recommendation, dict):
-            detailed_description = generate_detailed_description(recommendation['tip'], recommendation['description'])
-            st.success(f"Tip: {recommendation['tip']} - {recommendation['description']}\n\nDetailed Advice: {detailed_description}")
+            st.success(f"Tip: {recommendation['tip']} - {recommendation['description']}")
         else:
             st.error(recommendation)
 
