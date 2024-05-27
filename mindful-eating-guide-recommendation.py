@@ -8,73 +8,125 @@ mindful_eating_tips = {
     "Portion Control": [
         {
             "tip": "Use smaller plates",
-            "description": "Using smaller plates can help you control your portions better. When you use a smaller plate, your servings look larger, which can make you feel more satisfied with less food. This simple change can help you reduce your calorie intake without feeling deprived.\n\nDid you know that studies have shown people tend to eat less when they use smaller plates, leading to a reduction in calorie intake by up to 30%? (Source: Journal of Consumer Research)"
+            "description": "Using smaller plates can help you control your portions better. When you use a smaller plate, your servings look larger, which can make you feel more satisfied with less food. This simple change can help you reduce your calorie intake without feeling deprived.\n\nInteresting Fact: Studies have shown people tend to eat less when they use smaller plates, leading to a reduction in calorie intake by up to 30%. (Source: Journal of Consumer Research)"
         },
         {
             "tip": "Measure your food",
-            "description": "Measuring your food portions with cups and spoons can help you be more aware of how much you are eating. It ensures that you are not consuming more than you need, which can help you maintain a healthy weight and avoid overeating.\n\nDid you know that consistently measuring your food can help you understand portion sizes better, making it easier to make healthier choices without overindulging? (Source: American Journal of Clinical Nutrition)"
+            "description": "Measuring your food portions with cups and spoons can help you be more aware of how much you are eating. It ensures that you are not consuming more than you need, which can help you maintain a healthy weight and avoid overeating.\n\nInteresting Fact: Consistently measuring your food can help you understand portion sizes better, making it easier to make healthier choices without overindulging. (Source: American Journal of Clinical Nutrition)"
         },
         {
             "tip": "Serve from the kitchen",
-            "description": "Serving your food directly from the kitchen instead of placing serving dishes on the dining table can prevent you from taking second helpings. This strategy helps you stick to your initial portion size, reducing the temptation to overeat.\n\nDid you know that research suggests people eat about 20% less when food is served from the kitchen instead of having serving dishes on the table? (Source: Cornell University)"
+            "description": "Serving your food directly from the kitchen instead of placing serving dishes on the dining table can prevent you from taking second helpings. This strategy helps you stick to your initial portion size, reducing the temptation to overeat.\n\nInteresting Fact: Research suggests people eat about 20% less when food is served from the kitchen instead of having serving dishes on the table. (Source: Cornell University)"
         },
         {
             "tip": "Eat slowly",
-            "description": "Taking your time to chew thoroughly and savor your food can help you recognize when you are full. Eating slowly allows your brain to catch up with your stomach, preventing overeating and promoting better digestion.\n\nDid you know that eating slowly can reduce calorie intake and aid digestion? It takes about 20 minutes for your brain to register that you are full. (Source: Harvard Health)"
+            "description": "Taking your time to chew thoroughly and savor your food can help you recognize when you are full. Eating slowly allows your brain to catch up with your stomach, preventing overeating and promoting better digestion.\n\nInteresting Fact: Eating slowly can reduce calorie intake and aid digestion. It takes about 20 minutes for your brain to register that you are full. (Source: Harvard Health)"
         }
     ],
     "Emotional Eating": [
         {
             "tip": "Identify triggers",
-            "description": "Keeping a food diary to note when and why you eat can help you recognize patterns and emotional triggers. Understanding these triggers can help you develop healthier coping mechanisms for stress, boredom, or other emotions.\n\nDid you know that identifying emotional eating triggers can help reduce stress-related eating by up to 50%, leading to healthier eating habits? (Source: Mayo Clinic)"
+            "description": "Keeping a food diary to note when and why you eat can help you recognize patterns and emotional triggers. Understanding these triggers can help you develop healthier coping mechanisms for stress, boredom, or other emotions.\n\nInteresting Fact: Identifying emotional eating triggers can help reduce stress-related eating by up to 50%, leading to healthier eating habits. (Source: Mayo Clinic)"
         },
         {
             "tip": "Find alternatives",
-            "description": "Engaging in activities like walking, reading, or talking to a friend can be great alternatives to eating when you're feeling stressed or emotional. Finding other ways to cope with your feelings can help you break the cycle of emotional eating.\n\nDid you know that finding non-food-related activities can reduce the urge to eat by providing a distraction and helping to manage emotions more effectively? (Source: American Psychological Association)"
+            "description": "Engaging in activities like walking, reading, or talking to a friend can be great alternatives to eating when you're feeling stressed or emotional. Finding other ways to cope with your feelings can help you break the cycle of emotional eating.\n\nInteresting Fact: Finding non-food-related activities can reduce the urge to eat by providing a distraction and helping to manage emotions more effectively. (Source: American Psychological Association)"
         },
         {
             "tip": "Practice mindfulness",
-            "description": "Before eating, take a few deep breaths and assess your hunger level. This practice helps ensure that you are eating because you are genuinely hungry and not just eating out of habit or emotion.\n\nDid you know that practicing mindfulness before eating can decrease calorie intake and improve overall emotional well-being? (Source: Mindful Eating Research)"
+            "description": "Before eating, take a few deep breaths and assess your hunger level. This practice helps ensure that you are eating because you are genuinely hungry and not just eating out of habit or emotion.\n\nInteresting Fact: Practicing mindfulness before eating can decrease calorie intake and improve overall emotional well-being. (Source: Mindful Eating Research)"
         },
         {
             "tip": "Seek support",
-            "description": "Talking to a counselor or joining a support group can provide you with the support you need to manage emotional eating. Sharing your experiences with others can help you feel less alone and give you new strategies to cope with your emotions.\n\nDid you know that support groups can offer a sense of community and accountability, which can be crucial in overcoming emotional eating habits? (Source: National Eating Disorders Association)"
+            "description": "Talking to a counselor or joining a support group can provide you with the support you need to manage emotional eating. Sharing your experiences with others can help you feel less alone and give you new strategies to cope with your emotions.\n\nInteresting Fact: Support groups can offer a sense of community and accountability, which can be crucial in overcoming emotional eating habits. (Source: National Eating Disorders Association)"
         }
     ],
     "Binge Eating": [
         {
             "tip": "Plan your meals",
-            "description": "Having regular meals and snacks can help prevent extreme hunger, which can lead to binging. Planning your meals ensures that you are eating balanced, nutritious foods throughout the day, keeping your hunger and cravings in check.\n\nDid you know that meal planning can reduce the frequency of binge eating episodes by providing structure and ensuring balanced nutrition? (Source: International Journal of Eating Disorders)"
+            "description": "Having regular meals and snacks can help prevent extreme hunger, which can lead to binging. Planning your meals ensures that you are eating balanced, nutritious foods throughout the day, keeping your hunger and cravings in check.\n\nInteresting Fact: Meal planning can reduce the frequency of binge eating episodes by providing structure and ensuring balanced nutrition. (Source: International Journal of Eating Disorders)"
         },
         {
             "tip": "Avoid distractions",
-            "description": "Eating without distractions like TV or phones allows you to focus on your meal and recognize when you are full. Being mindful during meals can help you enjoy your food more and prevent overeating.\n\nDid you know that eating without distractions can improve digestion and reduce overeating by increasing awareness of satiety signals? (Source: American Journal of Clinical Nutrition)"
+            "description": "Eating without distractions like TV or phones allows you to focus on your meal and recognize when you are full. Being mindful during meals can help you enjoy your food more and prevent overeating.\n\nInteresting Fact: Eating without distractions can improve digestion and reduce overeating by increasing awareness of satiety signals. (Source: American Journal of Clinical Nutrition)"
         },
         {
             "tip": "Portion control",
-            "description": "Serving yourself a portion and putting away the rest can help you avoid continuous eating. Sticking to a single portion helps you control your intake and prevents the temptation to go back for more.\n\nDid you know that practicing portion control can lead to a 25% reduction in daily calorie intake, aiding in weight management and preventing overeating? (Source: Centers for Disease Control and Prevention)"
+            "description": "Serving yourself a portion and putting away the rest can help you avoid continuous eating. Sticking to a single portion helps you control your intake and prevents the temptation to go back for more.\n\nInteresting Fact: Practicing portion control can lead to a 25% reduction in daily calorie intake, aiding in weight management and preventing overeating. (Source: Centers for Disease Control and Prevention)"
         },
         {
             "tip": "Stay hydrated",
-            "description": "Drinking water throughout the day can help manage your hunger and prevent overeating. Sometimes, thirst can be mistaken for hunger, so staying hydrated can help you better understand your body's true needs.\n\nDid you know that staying hydrated can reduce hunger pangs and aid in overall body function, making it easier to distinguish between hunger and thirst? (Source: National Institutes of Health)"
+            "description": "Drinking water throughout the day can help manage your hunger and prevent overeating. Sometimes, thirst can be mistaken for hunger, so staying hydrated can help you better understand your body's true needs.\n\nInteresting Fact: Staying hydrated can reduce hunger pangs and aid in overall body function, making it easier to distinguish between hunger and thirst. (Source: National Institutes of Health)"
         }
     ],
     "General Tips": [
         {
             "tip": "Listen to your body",
-            "description": "Eat when you're hungry and stop when you're satisfied, not full. Paying attention to your body's hunger and fullness cues can help you avoid overeating and make healthier choices about when and how much to eat.\n\nDid you know that listening to your body's signals can improve eating habits and reduce the risk of overeating, leading to better overall health? (Source: Harvard Health)"
+            "description": "Eat when you're hungry and stop when you're satisfied, not full. Paying attention to your body's hunger and fullness cues can help you avoid overeating and make healthier choices about when and how much to eat.\n\nInteresting Fact: Listening to your body's signals can improve eating habits and reduce the risk of overeating, leading to better overall health. (Source: Harvard Health)"
         },
         {
             "tip": "Choose whole foods",
-            "description": "Opt for whole, unprocessed foods that nourish your body. Whole foods like fruits, vegetables, whole grains, and lean proteins are packed with nutrients and can help you feel more satisfied than processed foods.\n\nDid you know that choosing whole foods can provide essential nutrients and improve satiety, reducing the likelihood of overeating processed foods? (Source: Academy of Nutrition and Dietetics)"
+            "description": "Opt for whole, unprocessed foods that nourish your body. Whole foods like fruits, vegetables, whole grains, and lean proteins are packed with nutrients and can help you feel more satisfied than processed foods.\n\nInteresting Fact: Choosing whole foods can provide essential nutrients and improve satiety, reducing the likelihood of overeating processed foods. (Source: Academy of Nutrition and Dietetics)"
         },
         {
             "tip": "Balance your plate",
-            "description": "Including a variety of food groups in your meals ensures balanced nutrition. A balanced plate with proteins, carbohydrates, fats, and vegetables can provide you with all the essential nutrients your body needs to function well.\n\nDid you know that a balanced diet can enhance overall health and energy levels, supporting a well-functioning body and mind? (Source: World Health Organization)"
+            "description": "Including a variety of food groups in your meals ensures balanced nutrition. A balanced plate with proteins, carbohydrates, fats, and vegetables can provide you with all the essential nutrients your body needs to function well.\n\nInteresting Fact: A balanced diet can enhance overall health and energy levels, supporting a well-functioning body and mind. (Source: World Health Organization)"
         },
         {
             "tip": "Enjoy your food",
-            "description": "Take time to savor each bite and enjoy the flavors and textures of your food. Eating mindfully can enhance your eating experience, making meals more enjoyable and helping you appreciate the food you are eating.\n\nDid you know that mindful eating can improve digestion and satisfaction, making mealtime a more fulfilling and enjoyable experience? (Source: American Journal of Clinical Nutrition)"
+            "description": "Take time to savor each bite and enjoy the flavors and textures of your food. Eating mindfully can enhance your eating experience, making meals more enjoyable and helping you appreciate the food you are eating.\n\nInteresting Fact: Mindful eating can improve digestion and satisfaction, making mealtime a more fulfilling and enjoyable experience. (Source: American Journal of Clinical Nutrition)"
+        }
+    ]
+}
+
+# Dictionary of healthy Filipino recipes categorized by dietary preference
+healthy_recipes = {
+    "Portion Control": [
+        {
+            "title": "Gising-Gising",
+            "ingredients": ["green beans", "coconut milk", "chili peppers", "onion", "garlic", "ginger"],
+            "instructions": "Sauté garlic, onion, and ginger. Add green beans and chili peppers. Pour in coconut milk and simmer until the vegetables are tender."
+        },
+        {
+            "title": "Laing",
+            "ingredients": ["taro leaves", "coconut milk", "shrimp paste", "chili peppers", "garlic", "onion"],
+            "instructions": "Sauté garlic and onion. Add shrimp paste and chili peppers. Pour in coconut milk and add taro leaves. Simmer until the leaves are tender."
+        }
+    ],
+    "Emotional Eating": [
+        {
+            "title": "Monggo Guisado",
+            "ingredients": ["mung beans", "tomato", "garlic", "onion", "spinach", "vegetable broth"],
+            "instructions": "Sauté garlic, onion, and tomato. Add mung beans and vegetable broth. Simmer until beans are tender. Add spinach and cook until wilted."
+        },
+        {
+            "title": "Pinakbet",
+            "ingredients": ["eggplant", "bitter melon", "squash", "long beans", "tomato", "onion", "garlic"],
+            "instructions": "Sauté garlic, onion, and tomato. Add vegetables and a small amount of water. Cover and simmer until vegetables are tender."
+        }
+    ],
+    "Binge Eating": [
+        {
+            "title": "Chicken Tinola",
+            "ingredients": ["chicken", "green papaya", "malunggay leaves", "ginger", "garlic", "fish sauce"],
+            "instructions": "Sauté garlic, ginger, and onion. Add chicken and cook until lightly browned. Pour in water and fish sauce. Add green papaya and simmer until tender. Add malunggay leaves and cook for a few more minutes."
+        },
+        {
+            "title": "Pork Sinigang",
+            "ingredients": ["pork", "tamarind paste", "radish", "eggplant", "kangkong", "tomato", "onion"],
+            "instructions": "Boil pork with tamarind paste, tomato, and onion until tender. Add radish, eggplant, and other vegetables. Cook until vegetables are tender. Add kangkong leaves just before serving."
+        }
+    ],
+    "General Tips": [
+        {
+            "title": "Adobo sa Gata",
+            "ingredients": ["chicken", "coconut milk", "vinegar", "soy sauce", "garlic", "bay leaves"],
+            "instructions": "Sauté garlic. Add chicken and cook until lightly browned. Pour in vinegar, soy sauce, and coconut milk. Add bay leaves and simmer until chicken is tender."
+        },
+        {
+            "title": "Bicol Express",
+            "ingredients": ["pork", "coconut milk", "chili peppers", "shrimp paste", "garlic", "onion"],
+            "instructions": "Sauté garlic and onion. Add pork and cook until lightly browned. Pour in coconut milk and shrimp paste. Add chili peppers and simmer until pork is tender."
         }
     ]
 }
@@ -101,6 +153,12 @@ def recommend_random_tip():
     st.session_state.last_recommendation = random_tip
     return random_tip
 
+# Function to recommend a healthy recipe based on dietary preference
+def recommend_recipe(preference):
+    if preference in healthy_recipes:
+        return random.choice(healthy_recipes[preference])
+    return "Sorry, we don't have recipes for that preference."
+
 # Main function to run the Streamlit app
 def main():
     st.title("Mindful Eating Guide Recommendation")
@@ -112,7 +170,7 @@ def main():
 
     Having experienced emotional eating, binge eating, and the need for better portion control, I was motivated to develop this tool to help others. The Mindful Eating Guide provides practical, easy-to-follow tips for managing portion sizes, addressing emotional triggers, and simply enjoying your meals more mindfully.
     """)
-    
+
     # Ask user for their area of focus
     area = st.text_input("Type your area of focus (choose from Portion Control, Emotional Eating, Binge Eating, General Tips):")
 
@@ -125,15 +183,21 @@ def main():
                 recommendation = recommend_tip(area, selected_tip)
                 if isinstance(recommendation, dict):
                     st.success(f"Description: {recommendation['description']}")
+                    recipe = recommend_recipe(area)
+                    if isinstance(recipe, dict):
+                        st.info(f"Healthy Recipe: {recipe['title']}\n\nIngredients: {', '.join(recipe['ingredients'])}\n\nInstructions: {recipe['instructions']}")
                 else:
                     st.error(recommendation)
         else:
             st.error("The entered area of focus is not part of our categories.")
-    
+
     # Add a button to get a random tip
     if st.button("Get Random Tip"):
         random_recommendation = recommend_random_tip()
         st.info(f"Random Tip: {random_recommendation['tip']}\n\nDescription: {random_recommendation['description']}")
+        recipe = recommend_recipe("General Tips")
+        if isinstance(recipe, dict):
+            st.info(f"Healthy Recipe: {recipe['title']}\n\nIngredients: {', '.join(recipe['ingredients'])}\n\nInstructions: {recipe['instructions']}")
 
 if __name__ == "__main__":
     main()
