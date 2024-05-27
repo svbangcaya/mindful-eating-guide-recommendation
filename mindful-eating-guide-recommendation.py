@@ -6,67 +6,74 @@ from dotenv import load_dotenv
 # Dictionary of mindful eating tips categorized by area of focus
 mindful_eating_tips = {
     "Portion Control": [
-        {"tip": "Use smaller plates", "description": "Using smaller plates can help you control your portions better. When you use a smaller plate, your servings look larger, which can make you feel more satisfied with less food. This simple change can help you reduce your calorie intake without feeling deprived."},
-        {"tip": "Measure your food", "description": "Measuring your food portions with cups and spoons can help you be more aware of how much you are eating. It ensures that you are not consuming more than you need, which can help you maintain a healthy weight and avoid overeating."},
-        {"tip": "Serve from the kitchen", "description": "Serving your food directly from the kitchen instead of placing serving dishes on the dining table can prevent you from taking second helpings. This strategy helps you stick to your initial portion size, reducing the temptation to overeat."},
-        {"tip": "Eat slowly", "description": "Taking your time to chew thoroughly and savor your food can help you recognize when you are full. Eating slowly allows your brain to catch up with your stomach, preventing overeating and promoting better digestion."}
+        {"tip": "Use smaller plates", "description": "Using smaller plates can help you eat less by making portions appear larger."},
+        {"tip": "Measure your food", "description": "Use measuring cups and spoons to control portions accurately."},
+        {"tip": "Serve from the kitchen", "description": "Avoid placing serving dishes on the table to prevent second helpings."},
+        {"tip": "Eat slowly", "description": "Take your time to chew thoroughly and savor your food, which can help you recognize when you are full."}
     ],
     "Emotional Eating": [
-        {"tip": "Identify triggers", "description": "Keeping a food diary to note when and why you eat can help you recognize patterns and emotional triggers. Understanding these triggers can help you develop healthier coping mechanisms for stress, boredom, or other emotions."},
-        {"tip": "Find alternatives", "description": "Engaging in activities like walking, reading, or talking to a friend can be great alternatives to eating when you're feeling stressed or emotional. Finding other ways to cope with your feelings can help you break the cycle of emotional eating."},
-        {"tip": "Practice mindfulness", "description": "Before eating, take a few deep breaths and assess your hunger level. This practice helps ensure that you are eating because you are genuinely hungry and not just eating out of habit or emotion."},
-        {"tip": "Seek support", "description": "Talking to a counselor or joining a support group can provide you with the support you need to manage emotional eating. Sharing your experiences with others can help you feel less alone and give you new strategies to cope with your emotions."}
+        {"tip": "Identify triggers", "description": "Keep a food diary to note when and why you eat, helping you recognize emotional triggers."},
+        {"tip": "Find alternatives", "description": "Engage in activities like walking, reading, or talking to a friend instead of eating when stressed."},
+        {"tip": "Practice mindfulness", "description": "Take a few deep breaths and assess your hunger level before eating to ensure you are truly hungry."},
+        {"tip": "Seek support", "description": "Talk to a counselor or join a support group to manage emotional eating."}
     ],
     "Binge Eating": [
-        {"tip": "Plan your meals", "description": "Having regular meals and snacks can help prevent extreme hunger, which can lead to binging. Planning your meals ensures that you are eating balanced, nutritious foods throughout the day, keeping your hunger and cravings in check."},
-        {"tip": "Avoid distractions", "description": "Eating without distractions like TV or phones allows you to focus on your meal and recognize when you are full. Being mindful during meals can help you enjoy your food more and prevent overeating."},
-        {"tip": "Portion control", "description": "Serving yourself a portion and putting away the rest can help you avoid continuous eating. Sticking to a single portion helps you control your intake and prevents the temptation to go back for more."},
-        {"tip": "Stay hydrated", "description": "Drinking water throughout the day can help manage your hunger and prevent overeating. Sometimes, thirst can be mistaken for hunger, so staying hydrated can help you better understand your body's true needs."}
+        {"tip": "Plan your meals", "description": "Having regular meals and snacks can help prevent extreme hunger that leads to binging."},
+        {"tip": "Avoid distractions", "description": "Eat without distractions like TV or phones to focus on your meal."},
+        {"tip": "Portion control", "description": "Serve yourself a portion and put away the rest to avoid continuous eating."},
+        {"tip": "Stay hydrated", "description": "Drink water throughout the day to help manage hunger and prevent overeating."}
     ],
     "General Tips": [
         {"tip": "Listen to your body", "description": "Eat when you're hungry and stop when you're satisfied, not full. Paying attention to your body's hunger and fullness cues can help you avoid overeating and make healthier choices about when and how much to eat."},
-        {"tip": "Choose whole foods", "description": "Opt for whole, unprocessed foods that nourish your body. Whole foods like fruits, vegetables, whole grains, and lean proteins are packed with nutrients and can help you feel more satisfied than processed foods."},
-        {"tip": "Balance your plate", "description": "Including a variety of food groups in your meals ensures balanced nutrition. A balanced plate with proteins, carbohydrates, fats, and vegetables can provide you with all the essential nutrients your body needs to function well."},
-        {"tip": "Enjoy your food", "description": "Take time to savor each bite and enjoy the flavors and textures of your food. Eating mindfully can enhance your eating experience, making meals more enjoyable and helping you appreciate the food you are eating."}
+        {"tip": "Choose whole foods", "description": "Opt for whole, unprocessed foods that nourish your body and provide sustained energy. Whole foods are typically more nutrient-dense and can help you feel fuller longer."},
+        {"tip": "Balance your plate", "description": "Include a variety of food groups in your meals to ensure balanced nutrition. Aim for a mix of proteins, carbohydrates, fats, and plenty of fruits and vegetables to cover all nutritional bases."},
+        {"tip": "Enjoy your food", "description": "Take time to savor each bite and enjoy the flavors and textures. Eating slowly and mindfully can enhance your eating experience and help you recognize when you're satisfied."}
     ]
 }
 
-# Function to recommend a mindful eating tip based on focus area and tip selection
-def recommend_tip(area, selected_tip):
+# Function to recommend a mindful eating tip based on focus area
+def recommend_tip(area, tip=None):
     if area in mindful_eating_tips:
-        for tip in mindful_eating_tips[area]:
-            if tip["tip"] == selected_tip:
-                return tip
-    return "Sorry, we don't have tips for that focus area."
-
-# Function to recommend a random mindful eating tip from any category
-def recommend_random_tip():
-    all_tips = [tip for tips in mindful_eating_tips.values() for tip in tips]
-    return random.choice(all_tips)
+        if tip:
+            for t in mindful_eating_tips[area]:
+                if t['tip'] == tip:
+                    return t
+        return random.choice(mindful_eating_tips[area])
+    else:
+        return "Sorry, we don't have tips for that focus area."
 
 # Main function to run the Streamlit app
 def main():
     st.title("Mindful Eating Guide")
     st.subheader("Welcome to the Mindful Eating Guide! Get personalized tips for developing a healthier relationship with food.")
+    
+    st.markdown("""
+    ### Mindful Eating Guide Recommendation
+    **by Samantha V. Bangcaya - BSCS 3B AI**
+    Welcome to the Mindful Eating Guide! This application is designed to offer you personalized tips for developing a healthier relationship with food. Created by Samantha V. Bangcaya, a student from BSCS 3B AI, this guide is inspired by my own journey through various eating habits and challenges.
+
+    I have personally experienced the struggles of emotional eating, binge eating, and the need for better portion control. These experiences motivated me to develop a tool that can help others navigate their eating habits more mindfully. The Mindful Eating Guide provides practical and easy-to-follow tips that cater to different aspects of mindful eating, whether it's managing portion sizes, addressing emotional triggers, or simply enjoying your meals more consciously.
+    """)
 
     # Ask user for their area of focus
     area = st.selectbox("Select your area of focus:", ["Portion Control", "Emotional Eating", "Binge Eating", "General Tips"])
 
-    if area:
-        tips = [tip["tip"] for tip in mindful_eating_tips[area]]
-        selected_tip = st.selectbox("Select a tip:", tips)
+    # Recommend a tip based on the user's preference
+    if st.button("Get Tip"):
+        tips = [t['tip'] for t in mindful_eating_tips[area]]
+        tip = st.selectbox("Select a tip:", tips)
+        
+        recommendation = recommend_tip(area, tip)
+        if isinstance(recommendation, dict):
+            st.success(f"Tip: {recommendation['tip']}\n\nDescription: {recommendation['description']}")
+        else:
+            st.error(recommendation)
 
-        if st.button("Get Tip"):
-            recommendation = recommend_tip(area, selected_tip)
-            if isinstance(recommendation, dict):
-                st.success(f"Tip: {recommendation['tip']} - {recommendation['description']}")
-            else:
-                st.error(recommendation)
-    
-    # Add a button to get a random tip
+    # Get a random tip
     if st.button("Get Random Tip"):
-        random_recommendation = recommend_random_tip()
-        st.info(f"Random Tip: {random_recommendation['tip']} - {random_recommendation['description']}")
+        random_area = random.choice(list(mindful_eating_tips.keys()))
+        random_tip = recommend_tip(random_area)
+        st.info(f"Random Tip: {random_tip['tip']}\n\nDescription: {random_tip['description']}")
 
 if __name__ == "__main__":
     main()
